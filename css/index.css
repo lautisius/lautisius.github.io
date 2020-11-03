@@ -1,0 +1,95 @@
+body {
+  background-color: black;
+}
+
+html {
+overflow: scroll;
+overflow-x: hidden;
+}
+
+h1{
+color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+
+color: white;
+  font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+font-size:20px;
+}
+
+a:hover{
+color: red;
+  font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+font-size:20px;
+}
+
+.gif {
+
+
+}
+
+.P1{
+overflow: hidden;
+height: 200px;
+width: 400px;
+border-style: solid;
+padding:5px;
+color:white;
+border-radius: 0px;
+
+	
+   position: absolute;
+   top: 150px;
+   bottom: 1;
+   left:10px;
+   right: 1;
+   opacity:1;
+   margin: auto;	
+}
+
+.obsah {
+  width:auto;
+  height:870px;	
+
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+	
+}
+
+.P2{
+overflow: hidden;
+height: 400px;
+width: 600px;
+border-style: solid;
+padding:5px;
+color:white;
+border-radius: 0px;
+
+	
+   position: absolute;
+   top: 150px;
+   bottom: 1;
+   left:1;
+   right: 100px;
+   opacity:1;
+   margin: auto;	
+}
