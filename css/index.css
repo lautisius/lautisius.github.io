@@ -1,5 +1,15 @@
 body {
   background-color: black;
+  margin:0;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
 }
 
 html {
@@ -37,9 +47,31 @@ text-decoration: none;
 font-size:20px;
 }
 
+header nav {
+  text-align: right;
+  color: white;
+  font-size: 15px;
+  position:fixed;
+  width: 100%;
+  border-style: solid;
+  padding:5px;
+  color:white;
+  border-radius: 0px;
+}
+
 .gif {
+overflow: hidden;
+height: 250px;
+width: 250px;
 
-
+   content:url(../au.gif);
+  position: absolute;
+   top: 150px;
+   bottom: 1;
+   left:10px;
+   right: 1;
+   opacity:1;
+   margin: auto;  
 }
 
 .P1{
